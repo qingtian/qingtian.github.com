@@ -2,7 +2,7 @@ body{font-size:13px;font-family:Verdana, Arial, Helvetica, sans-serif;color:#333
 
 h1,h2,h3,h4,h5,h6{font-size:100%;}
 
-#wrap{margin:0px auto;width:600px;text-align:left;}
+#wrap{margin:50px auto;width:600px;text-align:left;}
 
 #header{padding-bottom:5px;border-bottom:1px #ccc dashed;}
 #header h1{padding-left:20px;background:url(../icon_16.png) 0px 0px no-repeat;}
@@ -11,4 +11,4 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 #navigation ul li{height:30px;line-height:30px;}
 #navigation ul li a,#navigation ul li a:visited,#navigation ul li a:hover,#navigation ul li a:active{color:green;}
 #navigation ul li a:hover{font-weight:bold;background-color:green;color:#fff;}
-#footer{margin-top:20px;text-align:center;background-color:#f3f3f3;}
+#footer{margin-top:10px;text-align:center;background-color:#f3f3f3;}
