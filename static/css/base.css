@@ -1,4 +1,18 @@
 
+/*基本布局*/
+body{color:#333;}
+
+a,a:visited,a:hover,a:active{font-size:12px;}
+
+header{background:#333;color:#fff;height:32px;line-height:32px;}
+nav,#main,footer{margin:0px auto;width:960px;text-align:left;}
+nav a,nav a:visited,nav a:hover,nav a:active{text-decoration:none;}
+nav a:hover{color:#f3f3f3;}
+#main{}
+footer{}
+footer p{line-height:20px;}
+
+
 /*首页*/
 h2 {font-size:18px;font-weight:bold;color:black;}
 
