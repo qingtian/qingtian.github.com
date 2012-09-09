@@ -1,0 +1,12 @@
+
+/*首页*/
+h2 {font-size:18px;font-weight:bold;color:black;}
+
+#article{margin:30px auto 0;}
+#article ul{margin:0 2em;}
+#article time{color:#999;}
+
+/*文章详细*/
+article {margin:30px auto 0;color:#666;}
+article h1{text-align:center;font-size:18px;font-weight:bold;color:black;}
+article p{margin:12px 0;text-indent:2em;font-size:18px;}
