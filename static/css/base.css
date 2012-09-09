@@ -4,12 +4,13 @@ body{font-size:12px;color:#333;}
 
 a,a:visited,a:hover,a:active{}
 
-header{background:#333;color:#fff;height:32px;line-height:32px;}
+header{background:#333;color:#fff;height:42px;line-height:42px;}
 nav,#main,footer{margin:0px auto;width:960px;text-align:left;}
 nav a,nav a:visited,nav a:hover,nav a:active{color:#fff;text-decoration:none;}
 nav a:hover{color:#f3f3f3;}
 
 #home{font-size:18px;}
+#article-nav{margin-left:20px;}
 
 #main{}
 footer{}
@@ -21,7 +22,7 @@ footer a,footer a:visited,footer a:hover,footer a:active{color:#999;}
 h2 {font-size:18px;font-weight:bold;color:#000;}
 
 #article{margin:30px auto 30px;}
-#article ul{maring:20px;}
+#article ul{margin:20px;}
 #article ul li{line-height:20px;height:20px;}
 #article ul li a,#article ul li a:visited,#article ul li a:hover,#article ul li a:active{color:#333;}
 #article ul li a:hover{color:#000;}
