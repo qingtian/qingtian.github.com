@@ -13,10 +13,9 @@ nav a:hover{color:#f3f3f3;}
 #article-nav{margin-left:20px;}
 
 #main{}
-footer{}
+footer{color:#666;}
 footer p{line-height:20px;}
-
-footer a,footer a:visited,footer a:hover,footer a:active{color:#999;}
+footer a,footer a:visited,footer a:hover,footer a:active{color:#999;text-decoration:none;}
 
 /*首页*/
 h2 {font-size:18px;font-weight:bold;color:#000;}
@@ -31,5 +30,5 @@ h2 {font-size:18px;font-weight:bold;color:#000;}
 /*文章详细*/
 article {margin:30px auto 0;color:#666;}
 article h1{font-size:18px;font-weight:bold;}
-.publish-time{margin:5px 0px 0px;color:#666;}
+.publish-time{margin:5px 0px 0px 20px;color:#666;}
 article p{margin:12px 0;font-size: 13px;line-height: 25px;text-indent:20px;}
