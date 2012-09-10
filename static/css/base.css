@@ -32,4 +32,5 @@ h2 {font-size:18px;font-weight:bold;color:#000;}
 article {margin:30px auto 0;color:#666;}
 article h1{font-size:18px;font-weight:bold;}
 .publish-time{margin:5px 0px 0px 20px;color:#666;}
+.publish-time a,.publish-time a:visited,.publish-time a:hover,.publish-time a:active{color:#333;}
 article p{margin:12px 0;font-size: 13px;line-height: 25px;text-indent:20px;}
