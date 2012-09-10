@@ -15,6 +15,7 @@ nav a:hover{color:#f3f3f3;}
 #main{}
 footer{color:#666;}
 footer p{line-height:20px;}
+.copyright{font-family:"verdana";font-size:14px;}
 footer a,footer a:visited,footer a:hover,footer a:active{color:#999;text-decoration:none;}
 
 /*首页*/
