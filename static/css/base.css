@@ -31,4 +31,4 @@ h2 {font-size:18px;font-weight:bold;color:#000;}
 /*文章详细*/
 article {margin:30px auto 0;color:#666;}
 article h1{font-size:18px;font-weight:bold;}
-article p{margin:12px 0;}
+article p{margin:12px 0;font-size: 13px;line-height: 25px;}
