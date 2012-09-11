@@ -18,11 +18,7 @@ title: 我的博客之旅
 
 
 + "Fork me on Github"的图片链接
-
-
 + 点击博文标题显示博文具体内容
-
-
 + Google Analytics的访问跟踪
 
 
