@@ -35,3 +35,5 @@ article h1{font-size:18px;font-weight:bold;}
 .publish-time a,.publish-time a:visited,.publish-time a:hover,.publish-time a:active{color:#333;}
 article p{margin:12px 0;font-size: 13px;line-height: 25px;text-indent:20px;}
 article p a,article p a:visited,article p a:hover,article  p a:active{color:blue;}
+article p strong{font-weight:bold;font-size:13px;}
+article ul{list-style:circle;}
