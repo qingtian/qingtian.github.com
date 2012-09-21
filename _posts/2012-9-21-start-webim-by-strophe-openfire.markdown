@@ -20,10 +20,15 @@ XMPP协议主要有以下几个节：presence, message, IQ, error 。而连接�
 以下列几个所用到的工具地址：
 
 [jQuery1.8.2](http://jquery.com/)
+
 [strophejs-1.0.2](http://strophe.im/strophejs/)
+
 [flXHR-1.0.6](https://github.com/flensed/flXHR/tree/master/code/releases)
+
 [strophe.flxhr.js](http://code.google.com/p/openfire-websockets/source/browse/trunk/plugin/ofchat/js/strophejs/plugins/strophe.flxhr.js?r=7)
+
 [openfire_3_7_1.exe](http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3_7_1.exe)
+
 [spark](http://www.igniterealtime.org/downloads/download-landing.jsp?file=spark/spark_2_6_3.exe)
 
 参考文章：
