@@ -15,19 +15,17 @@ title: Velocity入门级HelloWorld java application示例
 类名为：HelloWorldVelocity.java
 代码如下：
 
+```java
 package io.github.qingtian.velocitystudy;
 
 import java.io.StringWriter;
-
 import org.apache.velocity.Template;
-
 import org.apache.velocity.VelocityContext;
-
 import org.apache.velocity.app.VelocityEngine;
 
 public class HelloWorldVelocity {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 	
 		VelocityEngine ve = new VelocityEngine();
 		ve.init();
@@ -46,15 +44,14 @@ public class HelloWorldVelocity {
 	}
 
 }
+```
 
-5. 然后在源码包再创建一个名为res的资源包，并创建一个velocity模板（名为：helloworld.vm），内容如下：
+- 然后在源码包再创建一个名为res的资源包，并创建一个velocity模板（名为：helloworld.vm），内容如下：
 
-  Hello $name , visit $site
+ Hello $name , visit $site
 
-6. 最后运行HelloWorldVelocity.java，可以看到控制台打印如下内容：
+- 最后运行HelloWorldVelocity.java，可以看到控制台打印如下内容：
 
-  合并后的模板输出：
-  Hello qingtian , visit http://qingtian.github.io
+ 合并后的模板输出：Hello qingtian , visit http://qingtian.github.io
 
-至此，Velocity的入门级示例已经完成了！（参考来自：[http://www.knowsky.com/349968.html](http://www.knowsky.com/349968.html)）
-
+ 至此，Velocity的入门级示例已经完成了！（参考来自：[http://www.knowsky.com/349968.html](http://www.knowsky.com/349968.html)）
