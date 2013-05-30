@@ -12,46 +12,42 @@ title: Velocity入门级HelloWorld java application示例
 - 将下载好的velocity-1.7.zip解压到适应位置，并创建新的Java Project （名称随意，我的是：velocityStudy ）然后将velocity-1.7.jar和velocity-1.7-dep.jar两个jar包构建到工程的buildpath中，现在我们就可以使用Velocity中的类啦！
 - 创建一个Java类，并放到自已定义的包下（io.github.qingtian.velocitystudy）
 
-类名为：HelloWorldVelocity.java
-代码如下：
+ 类名为：HelloWorldVelocity.java，代码如下：
 
-```java
-package io.github.qingtian.velocitystudy;
 
-import java.io.StringWriter;
-import org.apache.velocity.Template;
-import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.VelocityEngine;
+	package io.github.qingtian.velocitystudy;
 
-public class HelloWorldVelocity {
+	import java.io.StringWriter;
+	import org.apache.velocity.Template;
+	import org.apache.velocity.VelocityContext;
+	import org.apache.velocity.app.VelocityEngine;
 
-    public static void main(String[] args) {
-	
-		VelocityEngine ve = new VelocityEngine();
-		ve.init();
+	public class HelloWorldVelocity {
+		public static void main(String[] args) {
+			VelocityEngine ve = new VelocityEngine();
+			ve.init();
 
-		Template t = ve.getTemplate("res/helloworld.vm");
+			Template t = ve.getTemplate("res/helloworld.vm");
+			VelocityContext context = new VelocityContext();
+			context.put("name", "qingtian");
+			context.put("site", "http://qingtian.github.io");
 
-		VelocityContext context = new VelocityContext();
-		context.put("name", "qingtian");
-		context.put("site", "http://qingtian.github.io");
-
-		StringWriter writer = new StringWriter();
-		t.merge(context, writer);
-
-		System.out.println("合并后的模板输出：");
-		System.out.println(writer.toString());
+			StringWriter writer = new StringWriter();
+			t.merge(context, writer);
+			System.out.println("合并后的模板输出：");
+			System.out.println(writer.toString());
+		}
 	}
 
-}
-```
 
 - 然后在源码包再创建一个名为res的资源包，并创建一个velocity模板（名为：helloworld.vm），内容如下：
 
- Hello $name , visit $site
+> Hello $name , visit $site
 
 - 最后运行HelloWorldVelocity.java，可以看到控制台打印如下内容：
 
- 合并后的模板输出：Hello qingtian , visit http://qingtian.github.io
+> 合并后的模板输出：
+
+> Hello qingtian , visit http://qingtian.github.io
 
  至此，Velocity的入门级示例已经完成了！（参考来自：[http://www.knowsky.com/349968.html](http://www.knowsky.com/349968.html)）
