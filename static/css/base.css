@@ -36,6 +36,7 @@ article h1{font-size:18px;font-weight:bold;}
 article p{margin:12px 0;font-size: 13px;line-height: 25px;text-indent:20px;}
 article p a,article p a:visited,article p a:hover,article  p a:active{color:blue;}
 article p strong{font-weight:bold;font-size:13px;}
-article ul{padding-left:30px;}
+article ul{list-style-type:circle;padding-left:30px;}
 
-pre{margin:5px 20px;border:1px #ccc solid;background:#eee;padding:5px;}
+pre{margin:10px 30px;border:1px #ccc solid;background:#eee;padding:5px;}
+blockquote{margin:0px 30px;border-left:4px #ccc solid;background-color:#eee;}
