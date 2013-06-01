@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6{color:#666;}
 pre{margin:10px 0px;padding:5px;border:1px #ccc solid;background-color:#eee;}
 blockquote{padding:10px;border-left:4px #ccc solid;background-color:#eee;}
 
+ul{margin-left:18px;list-style-type: disc;}
+ul li{margin-bottom:10px;}
+
 
 #navigation{position:fixed;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;text-align:center;}
 #navigation h1{margin-top:20px;font-weight:bold;font-size:14px;}
@@ -18,7 +21,7 @@ blockquote{padding:10px;border-left:4px #ccc solid;background-color:#eee;}
 #main p{line-height:25px;}
 
 
-section{}x
+section{}
 #section h2{}
 #section ul{}
 #section ul li{margin-bottom:5px;}

@@ -47,7 +47,6 @@ title: Velocity入门级HelloWorld java application示例
 - 最后运行HelloWorldVelocity.java，可以看到控制台打印如下内容：
 
 > 合并后的模板输出：
-
 > Hello qingtian , visit http://qingtian.github.io
 
  至此，Velocity的入门级示例已经完成了！（参考来自：[http://www.knowsky.com/349968.html](http://www.knowsky.com/349968.html)）
