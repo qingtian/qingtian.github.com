@@ -22,9 +22,9 @@ ul li{margin-bottom:10px;list-style-type: disc;}
 
 
 section{}
-#section h2{margin-bottom:5px;margin-left:18px;font-weight: bold;}
-#section ul{}
-#section ul li{margin-bottom:5px;}
+section h2{margin-bottom:5px;margin-left:18px;font-weight: bold;}
+section ul{}
+section ul li{margin-bottom:5px;}
 
 article{}
 article h2{padding-bottom:5px;font-weight:bold;border-bottom:1px #ccc solid;}
