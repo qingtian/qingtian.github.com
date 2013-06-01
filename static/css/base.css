@@ -8,8 +8,8 @@ h1,h2,h3,h4,h5,h6{color:#666;}
 pre{margin:10px 0px;padding:5px;border:1px #ccc solid;background-color:#eee;}
 blockquote{padding:10px;border-left:4px #ccc solid;background-color:#eee;}
 
-ul{margin-left:18px;list-style-type: disc;}
-ul li{margin-bottom:10px;}
+ul{margin-left:18px;}
+ul li{margin-bottom:10px;list-style-type: disc;}
 
 
 #navigation{position:fixed;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;text-align:center;}
