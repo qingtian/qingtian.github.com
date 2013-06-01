@@ -6,17 +6,19 @@ a,a:visited,a:hover,a:active{color:blue;}
 h1,h2,h3,h4,h5,h6{color:#666;}
 
 pre{margin:10px 0px;padding:5px;border:1px #ccc solid;background-color:#eee;}
-blockquote{border-left:4px #ccc solid;background-color:#eee;}
+blockquote{padding:10px;border-left:4px #ccc solid;background-color:#eee;}
 
 
-#navigation{position:absolute;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;}
-#navigation h1{font-size:14px;}
+#navigation{position:fixed;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;text-align:center;}
+#navigation h1{font-weight:bold;font-size:14px;}
 #navigation p{margin:10px 0px;}
 .build{padding-top:5px;border-top:1px #ccc solid;}
 
-#main{margin-left:200px;}
+#main{margin:20px 10px 30px 200px;}
+#main p{line-height:25px;}
 
-section{}
+
+section{}x
 #section h2{}
 #section ul{}
 #section ul li{margin-bottom:5px;}
