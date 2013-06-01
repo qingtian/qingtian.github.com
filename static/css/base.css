@@ -11,6 +11,7 @@ blockquote{padding:0px 10px;border-left:4px #ccc solid;background-color:#eee;}
 ul{margin-left:18px;}
 ul li{margin-bottom:10px;list-style-type: disc;}
 
+strong{font-weight:bold;}
 
 #navigation{position:fixed;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;text-align:center;}
 #navigation h1{margin-top:20px;font-weight:bold;font-size:14px;}
@@ -24,7 +25,7 @@ ul li{margin-bottom:10px;list-style-type: disc;}
 section{}
 section h2{margin-bottom:5px;margin-left:18px;font-weight: bold;}
 section ul{}
-section ul li{margin-bottom:5px;}
+section ul li{margin-bottom:5px;list-style:none;}
 
 article{}
 article h2{padding-bottom:5px;font-weight:bold;border-bottom:1px #ccc solid;}
