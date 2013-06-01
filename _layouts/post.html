@@ -3,10 +3,9 @@ layout: index
 ---
 
 <article>
-  <h1>{{ page.title }}</h1>
+  <h2>{{ page.title }}</h2>
   <div class="publish-time">
-	<a href="/" title="qingtian16265">晴天</a> 发布于   {{ page.date | date: "%Y-%m-%d" }} | 
-	<a href="/#article" title="所有文章">返回所有文章</a>
+	发布于 {{ page.date | date: "%Y-%m-%d" }} <a href="/">返回文章列表</a>
   </div>
   {{ content }}
 </article>

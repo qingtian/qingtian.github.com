@@ -1,42 +1,26 @@
+*{margin:0px;padding:0px;}
 
-/*基本布局*/
 body{font-size:13px;color:#333;}
 
-a,a:visited,a:hover,a:active{}
+a,a:visited,a:hover,a:active{color:blue;}
+h1,h2,h3,h4,h5,h6{color:#666;}
 
-header{background:#333;color:#fff;height:42px;line-height:42px;}
-nav,#main,footer{margin:0px auto;width:960px;text-align:left;}
-nav a,nav a:visited,nav a:hover,nav a:active{color:#fff;text-decoration:none;}
-nav a:hover{color:#f3f3f3;}
+pre{margin:10px 0px;padding:5px;border:1px #ccc solid;background-color:#eee;}
+blockquote{border-left:4px #ccc solid;background-color:#eee;}
 
-#home{font-size:18px;}
-#article-nav{margin-left:20px;}
 
-#main{}
-footer{color:#666;}
-footer p{line-height:20px;}
-.copyright{font-family:"verdana";}
-footer a,footer a:visited,footer a:hover,footer a:active{color:#999;text-decoration:none;}
+#navigation{position:absolute;top:0px;left:0px;bottom:0px;width:180px;background-color:#eee;}
+#navigation h1{font-size:14px;}
+#navigation p{margin:10px 0px;}
+.build{padding-top:5px;border-top:1px #ccc solid;}
 
-/*首页*/
-h2 {font-size:18px;font-weight:bold;color:#000;}
+#main{margin-left:200px;}
 
-#article{margin:30px auto 30px;}
-#article ul{margin:20px 0px;}
-#article ul li{line-height:20px;height:20px;}
-#article ul li a,#article ul li a:visited,#article ul li a:hover,#article ul li a:active{color:#333;}
-#article ul li a:hover{color:#000;}
-#article time{color:#999;}
+section{}
+#section h2{}
+#section ul{}
+#section ul li{margin-bottom:5px;}
 
-/*文章详细*/
-article {margin:30px auto 0;color:#666;}
-article h1{font-size:18px;font-weight:bold;}
-.publish-time{margin:5px 0px 0px 20px;color:#666;}
-.publish-time a,.publish-time a:visited,.publish-time a:hover,.publish-time a:active{color:#333;}
-article p{margin:12px 0;font-size: 13px;line-height: 25px;text-indent:20px;}
-article p a,article p a:visited,article p a:hover,article  p a:active{color:blue;}
-article p strong{font-weight:bold;font-size:13px;}
-article ul{list-style-type:circle;padding-left:30px;}
-
-pre{margin:10px 30px;border:1px #ccc solid;background:#eee;padding:5px;}
-blockquote{margin:0px 30px;border-left:4px #ccc solid;background-color:#eee;}
+article{}
+article h2{padding-bottom:5px;border-bottom:1px #ccc solid;}
+.publish-time{margin:10px 0px;}
