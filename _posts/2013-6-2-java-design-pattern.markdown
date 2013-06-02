@@ -105,3 +105,5 @@ title: JAVA 设计模式
 3、Visitor（访问者）模式
 
      Visitor模式的意图在于让代码用户能够在不修改现在类层次结构的前提下，定义该类层次结构的操作。
+
+引用来自：[http://xuzhfa123.iteye.com/blog/1881133](http://xuzhfa123.iteye.com/blog/1881133)
