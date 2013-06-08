@@ -5,8 +5,8 @@ title: SwingWorker类的使用示例
 
 当使用java Swing来构建GUI时，将线程与Swing一起使用时，必须遵循两个简单的原则：
 
- - 如果一个动作需要花费很长时间，在一个独立的工作器线程中做这件事而不要在事件分配线程中做
- - 除了事件分配线程，不要在任何线程中接触Swing组件（编程中通常称此为单一线程规则）
+ - 如果一个动作需要花费很长时间，在一个独立的工作器线程中做这件事而不要在事件分配线程中做 
+ - 除了事件分配线程，不要在任何线程中接触Swing组件（编程中通常称此为单一线程规则） 
 
 针对一个有加载文本文件的命令和取消加载过程的命令的程序，该文件在一个单独的线程中加载。在读取文件的过程中，Open菜单项被禁用，Cancel菜单项为可用。读取每一行后，状态条中的线性计数器被更新。读取过程完成之后，Open菜单项重新变为可用，Cancel项被禁用，状态行文本置为Done。
 
@@ -178,23 +178,23 @@ title: SwingWorker类的使用示例
 
 **API说明：javax.swing.SwingWorker<T,V> 6**
 
- - abstract T doInBackground()
+ - abstract T doInBackground() 
 
 	覆盖这一方法来执行后台的任务并返回这一工作的结果
 
- - void process(List<V> data)
+ - void process(List<V> data) 
 
 	覆盖这一方法来处理事件分配线程中的中间进度数据
 
- - void publish(V... data)
+ - void publish(V... data) 
 
 	传递中间进度数据到事件分配线程。从doInBackground调用这一方法
 
- - void execute()
+ - void execute() 
 
 	为工作器线程的执行预定这个工作器。
 
- - SwingWorker.StateValue getState()
+ - SwingWorker.StateValue getState() 
 
 	得到这个工作器线程的状态，值为PENDING、STARTED或DONE之一。
 
