@@ -176,13 +176,13 @@ title: SwingWorker类的使用示例
 
 以上摘自JAVA核心技术 卷I 基础知识（原书第8版）
 
-**API说明：javax.swing.SwingWorker<T,V> 6**
+**API说明：javax.swing.SwingWorker`<T,V>` 6**
 
  - abstract T doInBackground() 
 
 	覆盖这一方法来执行后台的任务并返回这一工作的结果
 
- - void process(List<V> data) 
+ - void process(List`<V>` data) 
 
 	覆盖这一方法来处理事件分配线程中的中间进度数据
 
