@@ -13,7 +13,8 @@ title: SwingWorker类的使用示例
 以上的程序任务可通过SwingWorker轻易实现。覆盖doInBackground方法来完成耗时的工作，不时地调用publish来报告工作进度。以下是源码：
 
 ```java
-<pre><code class="java">
+<pre>
+<code class="java">
 
 	import java.awt.BorderLayout;
 	import java.awt.EventQueue;
@@ -176,8 +177,9 @@ title: SwingWorker类的使用示例
 		public static final int DEFAULT_WIDTH = 450;
 		public static final int DEFAULT_HEIGHT = 350;
 	}
-	
-</code></pre>
+
+</code>
+</pre>
 ```
 
 以上摘自JAVA核心技术 卷I 基础知识（原书第8版）
@@ -194,23 +196,55 @@ abstract T doInBackground()
 </pre>
 ``` 
 
-	覆盖这一方法来执行后台的任务并返回这一工作的结果
+覆盖这一方法来执行后台的任务并返回这一工作的结果
 
- - void process(List`<V>` data) 
+```java
+<pre>
+<code class="java">
 
-	覆盖这一方法来处理事件分配线程中的中间进度数据
+ void process(List`<V>` data) 
 
- - void publish(V... data) 
+</code>
+</pre>
+```
 
-	传递中间进度数据到事件分配线程。从doInBackground调用这一方法
+覆盖这一方法来处理事件分配线程中的中间进度数据
 
- - void execute() 
+```java
+<pre>
+<code class="java">
 
-	为工作器线程的执行预定这个工作器。
+void publish(V... data) 
 
- - SwingWorker.StateValue getState() 
+</code>
+</pre>
+```
 
-	得到这个工作器线程的状态，值为PENDING、STARTED或DONE之一。
+传递中间进度数据到事件分配线程。从doInBackground调用这一方法
+
+```java
+<pre>
+<code class="java">
+
+void execute() 
+
+</code>
+</pre>
+```
+
+为工作器线程的执行预定这个工作器。
+
+```java
+<pre>
+<code class="java">
+
+SwingWorker.StateValue getState() 
+
+</code>
+</pre>
+```
+
+得到这个工作器线程的状态，值为PENDING、STARTED或DONE之一。
 
 
 
