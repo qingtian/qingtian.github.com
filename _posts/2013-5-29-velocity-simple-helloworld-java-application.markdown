@@ -14,7 +14,7 @@ title: Velocity入门级HelloWorld java application示例
 
  类名为：HelloWorldVelocity.java，代码如下：
 
-```java
+
 <pre>
 <code class="java">
 
@@ -44,31 +44,27 @@ title: Velocity入门级HelloWorld java application示例
 
 </code>
 </pre>
-```
+
 
 - 然后在源码包再创建一个名为res的资源包，并创建一个velocity模板（名为：helloworld.vm），内容如下：
 
-```java
+
 <pre>
 <code class="java">
-
 > Hello $name , visit $site
-
 </code>
 </pre>
-```
+
 
 - 最后运行HelloWorldVelocity.java，可以看到控制台打印如下内容：
 
 > 合并后的模板输出：
 
-```java
 <pre>
 <code class="java">
-
 > Hello qingtian , visit http://qingtian.github.io
 </code>
 </pre>
-```
+
 
  至此，Velocity的入门级示例已经完成了！（参考来自：[http://www.knowsky.com/349968.html](http://www.knowsky.com/349968.html)）
