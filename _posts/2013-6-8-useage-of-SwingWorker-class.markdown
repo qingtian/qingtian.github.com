@@ -15,6 +15,7 @@ title: SwingWorker类的使用示例
 
 <pre>
 <code class="java">
+
 	import java.awt.BorderLayout;
 	import java.awt.EventQueue;
 	import java.awt.event.ActionEvent;
@@ -181,7 +182,7 @@ title: SwingWorker类的使用示例
 
 以上摘自JAVA核心技术 卷I 基础知识（原书第8版）
 
-**API说明：javax.swing.SwingWorker`<T,V>` 6**
+**API说明：javax.swing.SwingWorker< T , V > 6**
 
 <pre>
 <code class="java">
@@ -193,7 +194,7 @@ abstract T doInBackground()
 
 <pre>
 <code class="java">
-void process(List`<V>` data) 
+void process( List< V > data ) 
 </code>
 </pre>
 
