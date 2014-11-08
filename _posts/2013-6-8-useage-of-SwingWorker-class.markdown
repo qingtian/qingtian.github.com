@@ -15,7 +15,6 @@ title: SwingWorker类的使用示例
 
 <pre>
 <code class="java">
-
 	import java.awt.BorderLayout;
 	import java.awt.EventQueue;
 	import java.awt.event.ActionEvent;
@@ -187,7 +186,7 @@ title: SwingWorker类的使用示例
 
 <pre>
 <code class="java">
-abstract T doInBackground()
+	abstract T doInBackground()
 </code>
 </pre>
 
@@ -195,7 +194,7 @@ abstract T doInBackground()
 
 <pre>
 <code class="java">
-void process( List< V > data ) 
+	void process( List< V > data ) 
 </code>
 </pre>
 
@@ -203,7 +202,7 @@ void process( List< V > data )
 
 <pre>
 <code class="java">
-void publish(V... data) 
+	void publish(V... data) 
 </code>
 </pre>
 
@@ -211,7 +210,7 @@ void publish(V... data)
 
 <pre>
 <code class="java">
-void execute() 
+	void execute() 
 </code>
 </pre>
 
@@ -219,7 +218,7 @@ void execute()
 
 <pre>
 <code class="java">
-SwingWorker.StateValue getState() 
+	SwingWorker.StateValue getState() 
 </code>
 </pre>
 
