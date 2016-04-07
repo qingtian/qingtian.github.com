@@ -71,7 +71,7 @@ shuttle是一个开源软件，其源码托管在github ( [shuttle](https://gith
 
 按照上面介绍的步骤完成安装与配置后， 现在点击shuttle图标就应该可以看到一些菜单了。
 
-![shuttle dropmenu](../static/img/20160406/shuttle-dropmenu.jpg)
+![shuttle dropmenu](http://blog.qingtian16265.com/static/img/20160406/shuttle-dropmenu.jpg)
 
 `目录切换`: 里面是平常我使用的常用命令
 `netease`: 就是平时需要远程登录的服务器
