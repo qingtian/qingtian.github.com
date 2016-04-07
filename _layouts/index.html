@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }}</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/website.ico">
+<link rel="stylesheet" href="/static/css/reset.css" />
+<link rel="stylesheet" href="/static/css/base.css" />
+<link rel="stylesheet" href="/static/css/monokai_sublime.css" />
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/highlight.pack.js"></script>
+</head>
+<body>
+<div id="navigation">
+	<h1>我是晴天</h1>
+	<p>
+		<img src="http://pic.yupoo.com/qingtian16265/CU7dJgem/small.jpg" />
+	</p>
+	<p>
+		关注前端，交互，JAVA技术
+	</p>
+	<p>
+		<a href="http://weibo.com/u/1725357052" target="_blank">新浪微博</a> | <a href="https://github.com/qingtian/" target="_blank">Github</a>
+	</p>
+	<p class="build">
+		Build by <a href="https://github.com/mojombo/jekyll/wiki" target="_blank">Jekyll</a>
+	</p>
+</div>
+
+<div id="main">
+{{ content }}
+</div>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34691518-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+	hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
