@@ -1,6 +1,13 @@
 ---
 layout: post
 title: JAVA 设计模式
+subtitle:   "java design"
+date:       2013-06-02
+author:     "qingtian"
+catalog:    true
+tags:
+    - java
+    - 设计模式
 ---
 
 一、接口型模式介绍

@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Velocity入门级HelloWorld java application示例
+subtitle:   "Velocity helloworld java application example"
+date:       2013-05-29
+author:     "qingtian"
+catalog:    true
+tags:
+    - java
+    - velocity
 ---
 
 由于考虑到Velocity的性能优势及使用简单，特别是Velocity-tool项目中的各种Tool，于是我今天也来试一把Velocity。

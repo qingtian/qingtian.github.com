@@ -1,6 +1,13 @@
 ---
 layout: post
 title: 如何构建一个基于JAVA的自动发布系统
+subtitle:   ""
+date:       2013-06-07
+author:     "qingtian"
+catalog:    true
+tags:
+    - java
+    - 发布系统
 ---
 
 什么是自动发布系统？我想先简单说一下我对这种系统需求的理解：

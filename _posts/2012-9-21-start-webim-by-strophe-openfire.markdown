@@ -1,6 +1,12 @@
 ---
 layout: post
 title: XMPP 高级编程(使用javascript和jQuery) 之入门连接篇
+subtitle:   ""
+date:       2012-09-21
+author:     "qingtian"
+catalog:    true
+tags:
+    - xmpp
 ---
 
 前几天在博库里逛发现的这本书《Professional XMPP Programming with JavaScript and jQuery》（中文名：XMPP高级编程——使用Javascript和jQuery）由Jack Moffitt著（杨明军译）。

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: SwingWorker类的使用示例
+subtitle:   ""
+date:       2013-06-08
+author:     "qingtian"
+catalog:    true
+tags:
+    - java
 ---
 
 当使用java Swing来构建GUI时，将线程与Swing一起使用时，必须遵循两个简单的原则： 

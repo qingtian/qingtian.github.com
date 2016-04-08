@@ -1,6 +1,12 @@
 ---
 layout: post
 title: 我的博客之旅
+subtitle:   "my blog treval"
+date:       2012-09-11
+author:     "qingtian"
+catalog:    true
+tags:
+    - 杂谈
 ---
 
 曾经我以为我不会写博客，为此我也尝试过"Wordpress" -- [晴天在Wordpress的家](https://qingtian16265.wordpress.com/)，在它提供的云端写文章，但是还没开始我就觉得写不下去了。为什么？一是在国内的通用限制，二是似乎也不是特别想在别人的系统里写文章。
