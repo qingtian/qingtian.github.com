@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAVA 设计模式
-subtitle:   "java design"
+subtitle:   ""
 date:       2013-06-02
 author:     "qingtian"
 catalog:    true

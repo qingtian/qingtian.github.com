@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的个人域名开通啦~
-subtitle:   "Why i called sunshine"
+subtitle:   ""
 date:       2014-1-8
 author:     "qingtian"
 catalog:    true

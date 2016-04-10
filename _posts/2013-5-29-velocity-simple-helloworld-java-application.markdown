@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Velocity入门级HelloWorld java application示例
-subtitle:   "Velocity helloworld java application example"
+subtitle:   ""
 date:       2013-05-29
 author:     "qingtian"
 catalog:    true

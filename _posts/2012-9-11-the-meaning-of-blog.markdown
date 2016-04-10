@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的博客之旅
-subtitle:   "my blog treval"
+subtitle:   ""
 date:       2012-09-11
 author:     "qingtian"
 catalog:    true
