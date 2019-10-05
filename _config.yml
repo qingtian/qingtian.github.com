@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: qingtian16265@163.com
 description: "关注前端，交互，java技术"
 keyword: "前端，交互，JAVA技术，晴天，晴天16265，qingtian16265"
-url: "http://blog.qingtian16265.com"              # your host, for absolute URL
+url: "https://blog.qingtian16265.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
