@@ -144,9 +144,10 @@ var gitalk = new Gitalk({
     clientSecret: '{{ site.gitalk_clientSecret }}',
     repo: '{{ site.gitalk_repo }}',
     owner: '{{ site.gitalk_owner }}',
-    admin: [],
+    admin: ['{{ site.gitalk_owner }}'],
     id: location.pathname,      
-    distractionFreeMode: '{{ site.gitalk_distractionFreeMode }}' 
+    distractionFreeMode: '{{ site.gitalk_distractionFreeMode }}' ,
+    createIssueManually: true
   });
   
   gitalk.render('gitalk-container');
