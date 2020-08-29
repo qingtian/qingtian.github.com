@@ -1,1 +1,3 @@
-Personal website address: [http://blog.qingtian16265.com](http://blog.qingtian16265.com "晴天的个人网站")
+这里是晴天的博客，记录生活，工作，学习的地方。
+
+博客模板使用的是：http://huangxuan.me/ 有喜欢的参考。

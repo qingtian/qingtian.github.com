@@ -14,50 +14,7 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
 
-                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
-                    {% if site.zhihu_username %}
-                    <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.weibo_username %}
-                    <li>
-                        <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-
-
-                    {% if site.facebook_username %}
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -69,6 +26,7 @@
                     </li>
                     {% endif %}
                 </ul>
+                
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
@@ -105,25 +63,6 @@
       s.parentNode.insertBefore(o, s);
     }
 </script>
-
-<!-- 
-     Because of the native support for backtick-style fenced code blocks 
-     right within the Markdown is landed in Github Pages, 
-     From V1.6, There is no need for Highlight.js, 
-     so Huxblog drops it officially.
-
-     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
-     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
-     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
--->
-<!--
-    <script>
-        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
-            hljs.initHighlightingOnLoad();
-        })
-    </script>
-    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
--->
 
 
 <!-- jquery.tagcloud.js -->
@@ -166,26 +105,6 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
-
-
-<!-- Baidu Tongji -->
-{% if site.ba_track_id %}
-<script>
-    // dynamic User by Hux
-    var _baId = '{{ site.ba_track_id }}';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-{% endif %}
-
-
 
 <!-- Side Catalog -->
 {% if page.catalog %}

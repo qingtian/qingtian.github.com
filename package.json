@@ -1,9 +1,9 @@
 {
-    "name": "qingtian-blog",
-    "title": "qingtian's Blog",
+    "name": "qingtian's blog",
+    "title": "晴天的博客",
     "author": "qingtian <qingtian16265@163.com>",
     "version": "1.6.0",
-    "homepage": "http://blog.qingtian16265.com",
+    "homepage": "https://blog.qingtian16265.com",
     "repository": {
         "type": "git",
         "url": "https://github.com/qingtian/qingtian.github.com"
@@ -18,9 +18,6 @@
     },
     "scripts": {
         "preview": "cd _site; python -m SimpleHTTPServer 8020",
-        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
-        "boil"   : "git push boilerplate boilerplate:master",
-        "push"   : "git push origin master --tag",
-        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+        "watch"  : "grunt watch & npm run preview & jekyll serve -w"
     }
 }

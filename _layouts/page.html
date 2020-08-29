@@ -21,12 +21,12 @@ layout: default
 <div class="container">
 	<div class="row">
         {% if site.sidebar == false %}
-<!-- NO SIDEBAR -->
-    <!-- PostList Container -->
+            <!-- NO SIDEBAR -->
+            <!-- PostList Container -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
                 {{ content }}
             </div>
-    <!-- Sidebar Container -->
+            <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -36,7 +36,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">标签</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -51,19 +51,19 @@ layout: default
 
                 <!-- Friends Blog -->
                 {% if site.friends %}
-                <hr>
+                <!--<hr>
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
-                </ul>
+                </ul>-->
                 {% endif %}
             </div>
         {% else %}
 
-<!-- USE SIDEBAR -->
-    <!-- PostList Container -->
+        <!-- USE SIDEBAR -->
+            <!-- PostList Container -->
     		<div class="
                 col-lg-8 col-lg-offset-1
                 col-md-8 col-md-offset-1
@@ -73,7 +73,7 @@ layout: default
             ">
     			{{ content }}
     		</div>
-    <!-- Sidebar Container -->
+            <!-- Sidebar Container -->
             <div class="
                 col-lg-3 col-lg-offset-0
                 col-md-3 col-md-offset-0
@@ -85,7 +85,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">标签</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -100,7 +100,7 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">关于我</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <img src="{{site.sidebar-avatar}}" />
@@ -175,13 +175,14 @@ layout: default
                 </section>
                 <!-- Friends Blog -->
                 {% if site.friends %}
-                <hr>
+                <!--<hr>
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
+                -->
                 {% endif %}
     		</div>
         {% endif %}
