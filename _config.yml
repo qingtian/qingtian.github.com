@@ -86,3 +86,12 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 #        href: "xxx"
 #    }
 #]
+
+
+# gitalk
+gitalk: true
+gitalk_clientId: '0582a7eafe82823a309a'
+gitalk_clientSecret: 'a2c490414cbfad0e7241fdcac5b462b0fbd83063'
+gitalk_repo: 'qingtian.github.com'
+gitalk_owner: 'qingtian'
+gitalk_distractionFreeMode: false
