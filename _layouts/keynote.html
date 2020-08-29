@@ -104,6 +104,24 @@ layout: default
     </div>
 </article>
 
+
+{% if site.gitalk %}
+<script>
+var gitalk = new Gitalk({
+    clientID: '{{ site.gitalk_clientId }}',
+    clientSecret: '{{ site.gitalk_clientSecret }}',
+    repo: '{{ site.gitalk_repo }}',
+    owner: '{{ site.gitalk_owner }}',
+    admin: ['{{ site.gitalk_owner }}'],
+    id: location.pathname,      
+    distractionFreeMode: '{{ site.gitalk_distractionFreeMode }}' ,
+    createIssueManually: true
+  });
+  
+  gitalk.render('gitalk-container');
+</script>
+{% endif %}
+
 <!-- resize header to fullscreen keynotes -->
 <script>
     var $header = document.getElementsByTagName("header")[0];
