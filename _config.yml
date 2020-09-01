@@ -80,12 +80,12 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-#friends: [
-#    {
-#        title: "xxx",
-#        href: "xxx"
-#    }
-#]
+friends: [
+    {
+        title: "LC's Blog(旅行的代码)",
+        href: "https://lchml.com/"
+    }
+]
 
 
 # gitalk
