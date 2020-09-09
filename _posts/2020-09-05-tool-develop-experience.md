@@ -905,6 +905,6 @@ D-BOX定位为设计稿分发与管理平台，几乎所有业务的交互稿，
 * [数据分析](https://wiki.mbalib.com/wiki/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)
 * [增长实战：破解获取、激活、留存的数据思维](https://zhuanlan.zhihu.com/p/25386142)
 * [技术债：the good, the bad, and the tao](https://zhuanlan.zhihu.com/p/23765415)
-* [各大互联网公司架构演进之路汇总 | 2020最新最全](https://blog.csdn.net/hollis_chuang/article/details/104285156)
+* [各大互联网公司架构演进之路汇总-2020最新最全](https://blog.csdn.net/hollis_chuang/article/details/104285156)
 
 
