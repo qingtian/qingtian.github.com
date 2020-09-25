@@ -128,7 +128,8 @@ var gitalk = new Gitalk({
 new Valine({
 	el: '#vcomments-container',
 	appId: '{{ site.valine_appKey }}',
-	appKey: '{{ site.valine_appSecret }}'
+    appKey: '{{ site.valine_appSecret }}',
+    visitor: '{{ site.valine_visitor }}'
 });
 </script>
 {% endif %}
