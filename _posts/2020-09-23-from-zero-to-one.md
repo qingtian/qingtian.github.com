@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2020-09-23
 author:     "qingtian"
 catalog:    true
-valine-path: '/2020/09/23/from-zero-to-one'
+valine-path: '/2020/09/23/from-zero-to-one/'
 tags:
     - 读书笔记
     - 书阅会
