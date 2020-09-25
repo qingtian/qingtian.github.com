@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-09-03
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/03/read-book-method/'
 tags:
     - 读书方法
     - 书阅会

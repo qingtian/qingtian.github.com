@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-09-20
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/20/product-code-test/'
 tags:
     - 团队职责
     - 个人思考

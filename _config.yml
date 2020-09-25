@@ -104,4 +104,4 @@ friends: [
 valine: true
 valine_appKey: 28S5dgexcLuLvXvdXBpWsB8p-gzGzoHsz
 valine_appSecret: tv9E4S5e7z0WrM8tyPiXzN0Q
-
+valine_placeHolder: 快来发表一下你的看法吧！

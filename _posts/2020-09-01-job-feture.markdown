@@ -5,6 +5,7 @@ subtitle:   "目标是职业生涯的灯塔，照亮前方的道路"
 date:       2020-09-01
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/01/job-feture/'
 tags:
     - 职业生涯
     - 工作

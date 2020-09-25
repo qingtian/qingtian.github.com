@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2012-09-21
 author:     "qingtian"
 catalog:    true
+valine-path: '/2012/09/21/start-webim-by-strophe-openfire/'
 tags:
     - xmpp
 ---

@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2012-09-11
 author:     "qingtian"
 catalog:    true
+valine-path: '/2012/09/11/the-meaning-of-blog/'
 tags:
     - 杂谈
 ---

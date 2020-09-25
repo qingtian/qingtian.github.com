@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-08-31
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/08/31/tecent-method/'
 tags:
     - 读书笔记
     - 书阅会

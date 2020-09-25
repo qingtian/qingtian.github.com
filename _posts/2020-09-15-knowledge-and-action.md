@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-09-15
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/15/knowledge-and-action/'
 tags:
     - 读书笔记
     - 书阅会

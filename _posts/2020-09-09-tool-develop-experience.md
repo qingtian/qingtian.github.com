@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-09-09
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/09/tool-develop-experience/'
 tags:
     - 工具开发
     - EP

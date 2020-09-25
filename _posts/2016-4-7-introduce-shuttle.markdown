@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2016-04-07
 author:     "qingtian"
 catalog:    true
+valine-path: '/2016/04/07/introduce-shuttle/'
 tags:
     - 效率工具
     - mac

@@ -10,9 +10,9 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <span class="subheading">{{ page.description }}</span>
-                    <div id="{{ page.valine-path }}" class="valine-info leancloud_visitors" data-flag-title="{{ page.title }}">
-						<span class="valine-name">阅读量：</span>
-						<span class="valine-count leancloud-visitors-count">0</span>
+                    <div id="{{ page.valine-path }}" class="valine-info leancloud_visitors" data-flag-title="{{ page.title }}" style="margin-top:10px;">
+						<span class="valine-name">访问量：</span>
+						<span class="valine-count leancloud-visitors-count">0</span> 人次
 					</div>
                 </div>
             </div>
@@ -225,6 +225,7 @@ new Valine({
 	el: '#vcomments-container',
 	appId: '{{ site.valine_appKey }}',
     appKey: '{{ site.valine_appSecret }}',
+    placeholder: '{{ site.valine_placeHolder }}',
     visitor: true
 });
 </script>

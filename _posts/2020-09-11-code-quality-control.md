@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-09-11
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/09/11/code-quality-control/'
 tags:
     - 代码质量
     - 单元测试

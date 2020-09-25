@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2013-06-02
 author:     "qingtian"
 catalog:    true
+valine-path: '/2013/06/02/java-design-pattern/'
 tags:
     - java
     - 设计模式

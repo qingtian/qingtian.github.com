@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2020-08-29
 author:     "qingtian"
 catalog:    true
+valine-path: '/2020/08/29/readbook-reason/'
 tags:
     - 读书笔记
     - 书阅会

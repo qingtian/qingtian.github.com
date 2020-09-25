@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2013-06-07
 author:     "qingtian"
 catalog:    true
+valine-path: '/2013/06/07/how-to-build-an-autodeploy-system-in-java/'
 tags:
     - java
     - 发布系统

@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2019-10-05
 author:     "qingtian"
 catalog:    true
+valine-path: '/2019/10/05/2019-newstart/'
 tags:
     - 规划
 ---

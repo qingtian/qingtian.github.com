@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2013-05-29
 author:     "qingtian"
 catalog:    true
+valine-path: '/2013/05/29/velocity-simple-helloworld-java-application/'
 tags:
     - java
     - velocity

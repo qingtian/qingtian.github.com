@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2012-09-10
 author:     "qingtian"
 catalog:    true
+valine-path: '/2012/09/10/why-called-sunshine/'
 tags:
     - 杂谈
 ---

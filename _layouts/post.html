@@ -41,7 +41,7 @@ layout: default
                         发布时间： {{ page.date | date: "%Y-%m-%d" }}，
                         <span id="{{ page.valine-path }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
                             <span>阅读量：</span>
-                            <span class="leancloud-visitors-count">0</span>
+                            <span class="leancloud-visitors-count">0</span> 人次
                         </span>
                     </span>
                 </div>
@@ -169,6 +169,7 @@ new Valine({
 	el: '#vcomments-container',
 	appId: '{{ site.valine_appKey }}',
     appKey: '{{ site.valine_appSecret }}',
+    placeholder: '{{ site.valine_placeHolder }}',
     visitor: true
 });
 </script>

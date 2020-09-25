@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2013-06-08
 author:     "qingtian"
 catalog:    true
+valine-path: '/2013/06/08/useage-of-SwingWorker-class/'
 tags:
     - java
 ---

@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2014-1-8
 author:     "qingtian"
 catalog:    true
+valine-path: '/2014/11/08/have-a-domain/'
 tags:
     - 杂谈
 ---
