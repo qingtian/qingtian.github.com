@@ -36,7 +36,14 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-                    <span class="meta">发布者： {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} ，发布时间： {{ page.date | date: "%Y-%m-%d" }}</span>
+                    <span class="meta">
+                        发布者： {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} ，
+                        发布时间： {{ page.date | date: "%Y-%m-%d" }}
+                        <span id="{{ page.valine-path }}" class="valine-info leancloud_visitors" data-flag-title="{{ page.title }}">
+                            <span class="valine-name">阅读量：</span>
+                            <span class="valine-count leancloud-visitors-count">0</span>
+                        </span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -161,7 +168,7 @@ new Valine({
 	el: '#vcomments-container',
 	appId: '{{ site.valine_appKey }}',
     appKey: '{{ site.valine_appSecret }}',
-    visitor: '{{ site.valine_visitor }}'
+    visitor: true
 });
 </script>
 {% endif %}

@@ -9,8 +9,11 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <!--<hr class="small">-->
                     <span class="subheading">{{ page.description }}</span>
+                    <div id="{{ page.valine-path }}" class="valine-info leancloud_visitors" data-flag-title="{{ page.title }}">
+						<span class="valine-name">阅读量：</span>
+						<span class="valine-count leancloud-visitors-count">0</span>
+					</div>
                 </div>
             </div>
         </div>
@@ -224,7 +227,7 @@ new Valine({
 	el: '#vcomments-container',
 	appId: '{{ site.valine_appKey }}',
     appKey: '{{ site.valine_appSecret }}',
-    visitor: '{{ site.valine_visitor }}'
+    visitor: true
 });
 </script>
 {% endif %}
