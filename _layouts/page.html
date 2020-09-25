@@ -29,7 +29,7 @@ layout: default
                 <hr>
 
                 <div id="gitalk-container"></div>
-
+                <div id="vcomments-container"></div>
             </div>
             <!-- Sidebar Container -->
             <div class="
@@ -81,7 +81,7 @@ layout: default
                 <hr>
 
                 <div id="gitalk-container"></div>
-                
+                <div id="vcomments-container"></div>
     		</div>
             <!-- Sidebar Container -->
             <div class="
@@ -199,7 +199,7 @@ layout: default
 	</div>
 </div>
 
-
+<!-- gitalk 评论 -->
 {% if site.gitalk %}
 <script>
 var gitalk = new Gitalk({
@@ -214,5 +214,16 @@ var gitalk = new Gitalk({
   });
   
   gitalk.render('gitalk-container');
+</script>
+{% endif %}
+
+<!-- valine 评论-->
+{% if site.valine %}
+<script>
+new Valine({
+	el: '#vcomments-container',
+	appId: '{{ site.valine_appKey }}',
+	appKey: '{{ site.valine_appSecret }}'
+});
 </script>
 {% endif %}
