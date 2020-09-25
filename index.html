@@ -21,11 +21,7 @@ valine-path: '/'
     </a>
     <p class="post-meta">
         发布者： {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} ，
-        发布时间： {{ post.date | date: "%Y-%m-%d" }}，
-        <span id="{{ page.valine-path }}" class="valine-info leancloud_visitors" data-flag-title="{{ page.title }}">
-            <span class="valine-name">阅读量：</span>
-            <span class="valine-count leancloud-visitors-count">0</span> 人次
-        </span>
+        发布时间： {{ post.date | date: "%Y-%m-%d" }}
     </p>
 </div>
 <hr>
