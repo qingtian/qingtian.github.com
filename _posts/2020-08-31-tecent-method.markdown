@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "【读后感】腾讯方法(一个市值1500亿美元公司的产品真经)"
+title:      "腾讯方法(一个市值1500亿美元公司的产品真经)"
 subtitle:   ""
 date:       2020-08-31
 author:     "qingtian"

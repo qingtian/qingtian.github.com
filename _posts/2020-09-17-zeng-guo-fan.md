@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "【读后感】曾国藩传"
+title:      "曾国藩传"
 subtitle:   ""
 date:       2020-09-17
 author:     "qingtian"

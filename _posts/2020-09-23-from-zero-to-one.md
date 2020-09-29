@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "【读后感】从0到1：开启商业与未来的秘密"
+title:      "从0到1：开启商业与未来的秘密"
 subtitle:   ""
 date:       2020-09-23
 author:     "qingtian"

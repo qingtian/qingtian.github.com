@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "【读后感】知行合一王阳明"
+title:      "知行合一王阳明"
 subtitle:   ""
 date:       2020-09-15
 author:     "qingtian"
