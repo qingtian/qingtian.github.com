@@ -130,5 +130,5 @@ tags:
 - [Google软件测试之道](http://product.dangdang.com/23347949.html)
 - [领域驱动设计 软件核心复杂性应对之道](http://product.dangdang.com/23981385.html)
 - [阿里巴巴Java开发规范](https://github.com/alibaba/p3c)
-- [编码规范|Java函数优雅之道](https://juejin.cn/post/6844903908469374984)
+- [编码规范-Java函数优雅之道](https://juejin.cn/post/6844903908469374984)
 
