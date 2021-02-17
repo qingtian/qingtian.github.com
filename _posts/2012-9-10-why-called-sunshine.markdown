@@ -18,4 +18,4 @@ tags:
 
  —— 以上即为作者"晴天"名称的由来
 
- ![叶惠美专辑封面](http://ww4.sinaimg.cn/mw690/66d6dbfcgw1dwrqtldvclj.jpg)
+ ![叶惠美专辑封面](/img/20120910/qingtian.jpg)
