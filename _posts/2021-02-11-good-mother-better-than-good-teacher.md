@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "《好妈妈胜过好老师》读后感"
+title:      "好妈妈胜过好老师"
 subtitle:   ""
 date:       2021-02-11
 author:     "qingtian"
