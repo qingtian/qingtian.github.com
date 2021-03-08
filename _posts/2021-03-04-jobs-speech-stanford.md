@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2021-03-04
 author:     "qingtian"
 catalog:    true
-valine-path: '/2021/03/04/jobs's-speech-stanford/'
+valine-path: '/2021/03/04/jobs-speech-stanford/'
 tags:
     - 阅读会
     - 乔布斯
