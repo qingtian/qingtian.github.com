@@ -9,6 +9,7 @@ valine-path: '/2020/08/31/tecent-method/'
 tags:
     - 读书笔记
     - 书阅会
+    - 2020年读书笔记
 ---
 
 ![腾讯方法封面](/img/20200831/tecent-method-book.jpeg)
