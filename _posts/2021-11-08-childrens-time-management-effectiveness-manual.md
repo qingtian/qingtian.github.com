@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2021-11-08
 author:     "qingtian"
 catalog:    true
-valine-path: '/2021/11/08/children's-time-management-effectiveness-manual/'
+valine-path: '/2021/11/08/childrens-time-management-effectiveness-manual/'
 tags:
     - 儿童
     - 时间管理
