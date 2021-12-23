@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "一本了解资本世界的首选读物-读《资本论》有感"
-subtitle:   ""
+title:      "一本了解资本世界的首选读物"
+subtitle:   "读《资本论》有感"
 date:       2021-12-12
 author:     "qingtian"
 catalog:    true

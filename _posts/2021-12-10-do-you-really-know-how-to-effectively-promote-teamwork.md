@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "如何有效促进团队协作，你真的清楚吗?-读《团队协作的五大障碍》有感"
-subtitle:   ""
+title:      "如何有效促进团队协作，你真的清楚吗?"
+subtitle:   "读《团队协作的五大障碍》有感"
 date:       2021-12-10
 author:     "qingtian"
 catalog:    true
