@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "我们每个人都应该懂得的思考方法-读《直击本质》有感"
+title:      "我们每个人都应该懂得的思考方法-读直击本质有感"
 subtitle:   ""
 date:       2021-12-27
 author:     "qingtian"
