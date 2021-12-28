@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "我们每个人都应该懂得的思考方法"
-subtitle:   "读《直击本质--洞察事物底层逻辑的思考方法》有感"
+subtitle:   "读《直击本质：洞察事物底层逻辑的思考方法》有感"
 date:       2021-12-27
 author:     "qingtian"
 catalog:    true
