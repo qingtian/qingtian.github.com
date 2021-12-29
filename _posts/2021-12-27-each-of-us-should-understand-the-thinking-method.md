@@ -1,16 +1,16 @@
 ---
 layout:     post
 title:      "我们每个人都应该懂得的思考方法"
-subtitle:   ""
+subtitle:   "读《中国历史的教训》有感"
 date:       2021-12-27
 author:     "qingtian"
 catalog:    true
 valine-path: '/2021/12/27/each-of-us-should-understand-the-thinking-method/'
 tags:
-	- 书阅会
-	- 读书笔记
-	- 2021年读书笔记
-	- 思维模型
+    - 书阅会
+    - 读书笔记
+    - 2021年读书笔记
+    - 思维模型
 ---
 
 # 前言
