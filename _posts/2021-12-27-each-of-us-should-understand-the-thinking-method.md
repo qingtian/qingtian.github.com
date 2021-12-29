@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "我们每个人都应该懂得的思考方法"
-subtitle:   "读《中国历史的教训》有感"
+subtitle:   "读《直击本质》有感"
 date:       2021-12-27
 author:     "qingtian"
 catalog:    true
