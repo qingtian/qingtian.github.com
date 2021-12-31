@@ -198,19 +198,19 @@ tags:
 - 管理的常识：让管理发挥绩效的8个基本概念（修订版）
 - 认知觉醒：开启自我改变的原动力
 
-![c1](../img/20211231/c1.jpg)
+![c1](/img/20211231/c1.jpg)
 
 [在微信读书中查看【人生的智慧】](https://weread.qq.com/web/reader/98332e4071e24245983ece8)
 
-![c2](../img/20211231/c2.jpg)
+![c2](/img/20211231/c2.jpg)
 
 [在微信读书中查看【费曼学习法】](https://weread.qq.com/web/reader/6eb32330723b4e476ebec59)
 
-![c3](../img/20211231/c3.jpg)
+![c3](/img/20211231/c3.jpg)
 
 [在微信读书中查看【管理的常识】](https://weread.qq.com/web/reader/53b32d205d098653bb74953)
 
-![c4](../img/20211231/c4.jpg)
+![c4](/img/20211231/c4.jpg)
 
 [在微信读书中查看【认知觉醒】](https://weread.qq.com/web/reader/6a732ce07201202c6a7b30a)
 
