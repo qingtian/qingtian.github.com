@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "如何才能激发创新，还不快来看看这个？"
+title:      "如何才能激发创新——我们每个人都该清楚"
 subtitle:   "读《我们如何走到今天：重塑世界的6项创新》有感"
 date:       2022-02-04
 author:     "qingtian"
