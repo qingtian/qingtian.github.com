@@ -75,13 +75,6 @@
     }
 </script>
 
-
-{% if page.title == '归档' %}
-<script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
-{% elseif page.title == '标签' %}
-<script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
-{% endif %}
-
 <!--fastClick.js -->
 <script>
     async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
