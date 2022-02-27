@@ -690,7 +690,7 @@ SCP是“规则/结构”“行为”和“业绩”的组合，是用来描述�
 学习知识就是为了实践，不为了实践的知识很快会被大脑所遗忘。结合工作，用起来才是王道。
 ```
 
-**读后感文章**：无
+**读后感文章**：[人人都该知道的绩效管理知识](https://blog.qingtian16265.com/2022/02/27/performance-management-knowledge-that-everyone-should-know/)
 
 
 ### 20. 《创业在路上》
