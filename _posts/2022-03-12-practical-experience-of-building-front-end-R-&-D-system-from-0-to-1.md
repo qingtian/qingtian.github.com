@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "从0到1构建前端研发体系的实践经验"
+title:      "从0到1构建前端研发体系的实践经验分享"
 subtitle:   ""
 date:       2022-03-12
 author:     "qingtian"
