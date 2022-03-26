@@ -8,9 +8,9 @@ catalog:    true
 valine-path: '/2022/03/09/the-wisdom-of-microsoft-CEO-in-life-and-work/'
 tags:
  - 书阅会
-  - 读书笔记
-  - 2022年读书笔记
-  - 微软
+ - 读书笔记
+ - 2022年读书笔记
+ - 微软
 
 ---
 
