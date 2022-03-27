@@ -7,7 +7,7 @@ author:     "qingtian"
 catalog:    true
 valine-path: '/2022/03/26/necessary-logic-knowledge-to-effectively-improve-the-persuasion-of-communication/'
 tags:
-  - 书阅会
+   - 书阅会
    - 读书笔记
    - 2022年读书笔记
    - 逻辑学
