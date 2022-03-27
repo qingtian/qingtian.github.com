@@ -1228,7 +1228,7 @@ PPT的演讲力，需要提前储备，但知识再多也敌不过持续不断�
 之后便是实践之路的起始！
 ```
 
-**读后感文章**：无
+**读后感文章**：[有效提升沟通说服力的必备逻辑学知识](https://blog.qingtian16265.com/2022/03/26/necessary-logic-knowledge-to-effectively-improve-the-persuasion-of-communication/)
 
 --
 
