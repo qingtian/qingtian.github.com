@@ -7,8 +7,8 @@ author:     "qingtian"
 catalog:    true
 valine-path: '/2022/05/05/what-is-mece/'
 tags:
-  - 智库词条
-    - MECE分析法
+	- 智库词条
+	- MECE分析法
 
 ---
 
