@@ -7,10 +7,10 @@ author:     "qingtian"
 catalog:    true
 valine-path: '/2022/05/09/functional-distribution-of-human-brain/'
 tags:
-	- 读书笔记
-	- 2022年读书笔记
-	- 书阅会
-	- 大脑
+  - 读书笔记
+  - 2022年读书笔记
+  - 书阅会
+  - 大脑
 
 ---
 
