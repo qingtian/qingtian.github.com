@@ -1,7 +1,7 @@
 
 ---
 layout:     post
-title:      "白塔&少儿公园赏花与游玩"
+title:      "白塔和少儿公园赏花与游玩"
 subtitle:   ""
 date:       2023-03-19
 author:     "qingtian"
