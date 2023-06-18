@@ -57,13 +57,8 @@ kramdown:
 
 
 
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: dd503bd06ea6c4a0d59b87de56a29e03
-# Google Analytics
-ga_track_id: 'UA-34691518-1'            # Format: UA-xxxxxx-xx
-ga_domain: blog.qingtian16265.com
-
+# ga4
+ga_track_id: 'G-G7468WRYT5'
 
 
 # Sidebar settings
