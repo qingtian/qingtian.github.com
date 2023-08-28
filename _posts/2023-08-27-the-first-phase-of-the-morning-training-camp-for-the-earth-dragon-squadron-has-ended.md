@@ -66,6 +66,8 @@ tags:
 
 B站上地龙战队晨练训练营合集：
 
+![20230828002.jpeg](http://img.qingtian16265.com/20230828002.jpeg)
+
 - [地龙战队晨练训练营01——北塘河](https://www.bilibili.com/video/BV19W4y1R7pQ/?spm_id_from=333.999.0.0)
 - [地龙战队晨练训练营02——白马湖](https://www.bilibili.com/video/BV1jo4y1J7JW/?spm_id_from=333.999.0.0)
 - [地龙战队晨练训练营03——环西兴](https://www.bilibili.com/video/BV1x14y1R7ZB/?spm_id_from=333.999.0.0)
