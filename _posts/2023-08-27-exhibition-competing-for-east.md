@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "展览：竞出中国"
+title:      "展览：竞出东方"
 subtitle:   ""
 date:       2023-08-27
 author:     "qingtian"
