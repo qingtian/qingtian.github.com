@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "【徒步】十里琅珰（法喜寺-三叉口-五云山-云栖竹径）"
-subtitle:   ""
+title:      "十里琅珰"
+subtitle:   "法喜寺-三叉口-五云山-云栖竹径"
 date:       2024-03-09
 author:     "qingtian"
 catalog:    true
