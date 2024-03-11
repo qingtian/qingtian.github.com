@@ -5,7 +5,7 @@ subtitle:   "法喜寺-三叉口-五云山-云栖竹径"
 date:       2024-03-09
 author:     "qingtian"
 catalog:    true
-valine-path: '/2024/03/09/on-foot-ten-mile-langdang/'
+valine-path: '/2024/03/09/ten-mile-langdang/'
 tags:
   - 法喜寺  
   - 五云山
